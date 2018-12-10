@@ -1,0 +1,2 @@
+csc /win32icon:hide_pane.ico /target:winexe /out:hide_pane_normal.exe hide_pane_normal.cs /reference:"presentationframework.dll" /reference:"windowsbase.dll" /reference:"presentationcore.dll" /reference:"System.Xaml.dll"
+csc /win32icon:hide_pane.ico /target:winexe /out:hide_pane_inverted.exe hide_pane_inverted.cs /reference:"presentationframework.dll" /reference:"windowsbase.dll" /reference:"presentationcore.dll" /reference:"System.Xaml.dll"
